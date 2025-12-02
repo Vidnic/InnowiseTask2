@@ -7,11 +7,11 @@ public abstract class TextComponent {
 			this.componentType = componentType;
 		}
 		
-		public TextComponentType getElementType() {
+		public TextComponentType getComponentType() {
 			return componentType;
 		}
 		
-		public void setElementType(TextComponentType elementType) {
+		public void setComponentType(TextComponentType elementType) {
 			this.componentType = elementType;
 		}
 		
