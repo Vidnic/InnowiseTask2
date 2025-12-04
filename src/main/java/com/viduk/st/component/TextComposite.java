@@ -5,11 +5,11 @@ import java.util.List;
 
 import com.viduk.st.exception.*;
 
-public class TextComponentComposite extends TextComponent{
+public class TextComposite extends TextComponent{
 
 	List<TextComponent> components = new ArrayList<>();
 	
-	public TextComponentComposite(TextComponentType elementType) {
+	public TextComposite(TextComponentType elementType) {
 		super(elementType);
 	}
 	public void addComponent(TextComponent component) {
